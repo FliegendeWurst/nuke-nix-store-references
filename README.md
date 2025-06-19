@@ -8,7 +8,7 @@ Quick script to remove store hashes from text files.
 
 ## Usage
 
-- With no argements: stdin → stdout.
+- With no arguments: stdin → stdout.
 
 Example: `nix log /nix/store/q8bik9dyjhkrz0k73147xyy2xgwdx6k1-lilypond-2.24.4 | ansi2txt | nuke-nix-store-references > /tmp/x`
 
